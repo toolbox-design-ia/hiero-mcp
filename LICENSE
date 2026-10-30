@@ -1,0 +1,68 @@
+hiero-mcp Freeware License
+
+Copyright (c) 2026 Henry RR. All rights reserved.
+
+This software, including its source code, the Hiero plugin, documentation and
+any accompanying files (the "Software"), is the property of the copyright
+holder and is protected by copyright law. The Software is licensed, not sold.
+
+1. Grant of license
+
+   Subject to the terms below, the copyright holder grants you a free of
+   charge, non-exclusive, non-transferable, revocable license to download,
+   install and use the Software on any number of computers, for personal or
+   commercial purposes, including use inside a company or studio.
+
+2. Restrictions
+
+   You may not, in whole or in part:
+
+   a. modify, adapt, translate or create derivative works of the Software,
+      other than changing its configuration settings;
+   b. copy, redistribute, publish, sublicense, rent, lease, lend or sell the
+      Software, or make it available to third parties (including as a hosted
+      or online service offered to others), except that an organization may
+      install it on its own computers for its own staff;
+   c. include the Software, or any part of it, in another product;
+   d. remove or alter any copyright, license or attribution notice.
+
+   The Software may only be obtained from the copyright holder's official
+   distribution channels.
+
+3. Ownership
+
+   The copyright holder retains all right, title and interest, including all
+   intellectual property rights, in and to the Software. No rights are granted
+   other than those expressly stated in this license.
+
+4. Third-party components
+
+   The Software depends on third-party open-source packages (for example the
+   Model Context Protocol Python SDK). Those packages are licensed under their
+   own terms, which this license does not change.
+
+   Foundry, Hiero and Nuke are trademarks of their respective owners. This
+   Software is not affiliated with or endorsed by Foundry.
+
+5. Termination
+
+   This license ends automatically if you breach any of its terms. On
+   termination you must stop using the Software and delete all copies.
+
+6. No warranty
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. YOU USE THE SOFTWARE
+   AT YOUR OWN RISK, INCLUDING ANY CHANGES IT OR AN AI AGENT USING IT MAKES TO
+   YOUR PROJECTS, MEDIA OR FILES.
+
+7. Limitation of liability
+
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE COPYRIGHT
+   HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING LOSS
+   OF DATA, WORK OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+   OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS
+   USE.
+
+For permissions beyond this license, contact the copyright holder.

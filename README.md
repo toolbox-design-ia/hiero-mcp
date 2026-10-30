@@ -164,4 +164,4 @@ After changing the plugin, run `uv run hiero-mcp install-plugin` and restart Hie
 
 ## License
 
-To be decided.
+Freeware, all rights reserved: free to use, including commercially, but not to modify, redistribute or sell. See [LICENSE](LICENSE).
