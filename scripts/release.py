@@ -75,7 +75,7 @@ def download_snippet(base_url: str, wheel: Path, version: str) -> str:
 
   <h3>Requirements</h3>
   <ul>
-    <li>Hiero, Hiero Player or Nuke Studio 17.x (macOS, Windows or Linux)</li>
+    <li>Hiero, Hiero Player or Nuke Studio 17.x (tested on macOS)</li>
     <li><a href="https://docs.astral.sh/uv/getting-started/installation/">uv</a> (one-line installer)</li>
   </ul>
 
