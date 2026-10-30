@@ -158,10 +158,18 @@ uv run hiero-mcp status
 uv run python scripts/live_check.py   # with Hiero open: runs every tool in a project named "mcp_test"
 ```
 
+To publish a release on the website, bump `version` in `pyproject.toml`, then run:
+
+```bash
+uv run python scripts/release.py --base-url https://<your-site>/hiero-mcp --live
+```
+
+It runs the tests (plus the live check with `--live`) and stops at the first failure. If everything passes, it writes `dist/site/`: the wheel, checksums, a package index for `uvx --index <base-url>/simple/ hiero-mcp@latest`, the license, and `download.html`, the block to paste into the download page. Upload the whole folder to the base URL, keeping its structure.
+
 After changing the plugin, run `uv run hiero-mcp install-plugin` and restart Hiero, or reload `hiero_mcp_bridge.commands` from `execute_python`.
 
 `src/hiero_mcp/server.py` defines the MCP tools. `src/hiero_mcp/hiero_plugin/hiero_mcp_bridge/commands.py` implements them with the Hiero API. Each tool has a command with the same name and parameters, and the tests check that they stay in sync.
 
 ## License
 
-Freeware, all rights reserved: free to use, including commercially, but not to modify, redistribute or sell. See [LICENSE](LICENSE).
+Freeware by Toolbox Design, all rights reserved: free to use, including commercially, but not to modify, redistribute or sell. See [LICENSE](LICENSE).
